@@ -18,13 +18,15 @@ export default function ContactSidebar() {
     return (
         <aside className={`aside ` + (isDark ? 'aside-dark' : '')}>
             <button onClick={toggleTheme}>Cambiar tema</button>
-            <div>
+            <div className='search-bar'>
                 <ContactSearchForm/>
                 <a>Buscar un chat o iniciar uno nuevo</a>
+                <div className='buttons-above'>
                 <a href="">Todos</a>
                 <a href="">No leidos</a>
                 <a href="">Favoritos</a>
                 <a href="">Grupos</a>
+                </div>
             </div>
             <ContactList/>
         </aside>
