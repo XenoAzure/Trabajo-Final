@@ -14,12 +14,12 @@ export default function MessagesScreen() {
     } = useContext(ContactDetailContext)
     return (
         <div>
-            <h1>Pantalla de mensajes</h1>
+            <h1>Mensajes</h1>
             <ContactSidebar/>
             {
                 loadingContact 
                 ? <div>Cargando..</div>
-                : <h2>Contacto seleccionado: {contactSelected.contact_name}</h2>
+                : <h2>Contacto: {contactSelected.contact_name}</h2>
             }
             
         </div>

@@ -7,7 +7,7 @@ export default function ChatScreen() {
 
   return (
     <div>
-        <h1>Pantalla de contactos</h1>
+        <h1>Chat de Whatssapp</h1>
         <ContactSidebar/>
     </div>
   )
