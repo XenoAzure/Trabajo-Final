@@ -4,7 +4,7 @@ export default function ContactSearchForm() {
   return (
     <div>
       <h3>
-        Buscar contacto
+        Buscar un chat o iniciar uno nuevo
       </h3>
       </div>
   )

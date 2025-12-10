@@ -20,7 +20,11 @@ export default function ContactSidebar() {
             <button onClick={toggleTheme}>Cambiar tema</button>
             <div>
                 <ContactSearchForm/>
-                <a>Crear contacto</a>
+                <a>Buscar un chat o iniciar uno nuevo</a>
+                <a href="">Todos</a>
+                <a href="">No leidos</a>
+                <a href="">Favoritos</a>
+                <a href="">Grupos</a>
             </div>
             <ContactList/>
         </aside>
